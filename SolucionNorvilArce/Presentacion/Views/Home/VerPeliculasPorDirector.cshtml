@@ -1,0 +1,51 @@
+﻿@using Entity;
+@model List<Pelicula>
+
+@{
+    ViewBag.Title = "Listado de peliculas";
+}
+
+<div class="container bg-warning">
+    @{
+        <h1>Peliculas de @ViewBag.director</h1>
+    }
+
+    <p>
+        <form action="/Home/CreatePelicula/@ViewBag.idDirector" method="get">
+            <button class="btn btn-primary">Agregar Pelicula</button>
+        </form>
+    </p>
+    <div class="bg-success">
+        <table class="table table-hover table-bordered table-hover">
+            <thead>
+                <tr>
+                    <td>Codigo</td>
+                    <td>Titulo</td>
+                    <td>Genero</td>
+                    <td>Sinopsis</td>
+                    <td>Fecha Estreno</td>
+                    <td>Acciones</td>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.IdPelicula</td>
+                            <td>@item.Nombre</td>
+                            <td>@item.Genero</td>
+                            <td>@item.Sinopsis</td>
+                            <td>@string.Format("{0:d}", item.FchEstreno)</td>
+                            <td>
+                                <div class="btn btn-warning">@Html.ActionLink("Editar", "UpdatePelicula", new { id=item.IdPelicula})</div>
+                                <div class="btn btn-danger">@Html.ActionLink("Eliminar", "DeletePelicula", new { id=item.IdPelicula})</div>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="btn btn-warning">@Html.ActionLink("Volver", "Index")</div>
+</div>

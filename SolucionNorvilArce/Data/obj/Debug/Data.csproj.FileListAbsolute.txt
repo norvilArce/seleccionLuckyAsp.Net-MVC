@@ -1,0 +1,9 @@
+C:\Users\Norvil\Desktop\SELECCION LUCKY\SolucionNorvilArce\Data\bin\Debug\Data.dll
+C:\Users\Norvil\Desktop\SELECCION LUCKY\SolucionNorvilArce\Data\bin\Debug\Data.pdb
+C:\Users\Norvil\Desktop\SELECCION LUCKY\SolucionNorvilArce\Data\bin\Debug\Entity.dll
+C:\Users\Norvil\Desktop\SELECCION LUCKY\SolucionNorvilArce\Data\bin\Debug\Entity.pdb
+C:\Users\Norvil\Desktop\SELECCION LUCKY\SolucionNorvilArce\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Norvil\Desktop\SELECCION LUCKY\SolucionNorvilArce\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Norvil\Desktop\SELECCION LUCKY\SolucionNorvilArce\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Norvil\Desktop\SELECCION LUCKY\SolucionNorvilArce\Data\obj\Debug\Data.dll
+C:\Users\Norvil\Desktop\SELECCION LUCKY\SolucionNorvilArce\Data\obj\Debug\Data.pdb
